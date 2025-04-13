@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Niadul Islam Munna",
-  initials: "DV",
+  initials: "NIM",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -26,8 +26,8 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "nidulislammunna@gmail.com",
+    tel: "+8801989-705147",
     social: {
       GitHub: {
         name: "GitHub",
@@ -67,8 +67,8 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/logo.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Dec 2023",
+      end: "Current",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
