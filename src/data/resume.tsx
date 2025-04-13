@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
+  name: "Niadul Islam Munna",
   initials: "DV",
   url: "https://dillion.io",
   location: "San Francisco, CA",
@@ -11,19 +11,15 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+  avatarUrl: "/profile.jpg",
   skills: [
     "React",
     "Next.js",
     "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "TailwindCSS",
+    "Shadcn UI",
+    "Framer Motion",
+    "Zod",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -35,36 +31,29 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Niadul-Munna",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/niadul-munna/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Niadul_Munna",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -72,12 +61,12 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Nexail LTD",
+      href: "https://www.nexail.com/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
+      title: "Frontend Developer",
+      logoUrl: "/logo.png",
       start: "May 2021",
       end: "Oct 2022",
       description:
